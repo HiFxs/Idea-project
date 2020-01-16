@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <bean id="car1" class="com.spring.factory.staticfactory" factory-method="getCar">
+        <constructor-arg name="name" value="audi"></constructor-arg>
+    </bean>
+    <!--配置工厂的实列-->
+<bean id="instancefactory" class="com.spring.factory.Instancefactory"></bean>
+<!--通过实列化的工厂类来创建bean-->
+
+    <bean id="car2" factory-bean="instancefactory" factory-method="getCar">
+        <constructor-arg value="vovo"></constructor-arg>
+    </bean>
+
+
+</beans>

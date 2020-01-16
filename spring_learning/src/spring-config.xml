@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:contexd="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <bean id="helloworld" class="com.spring.beans.Helloworld">
+<property name="name" value="Spring"></property>
+</bean>
+
+
+    <bean id="car" class="com.spring.beans.Car">
+        <constructor-arg value="Audi"></constructor-arg>
+<constructor-arg name="corp">
+    <value><![CDATA[<shanghai^>]]></value>
+</constructor-arg>
+        <constructor-arg value="3000"></constructor-arg>
+        <constructor-arg type="int">
+            <value>250</value>
+        </constructor-arg>
+    </bean>
+
+<bean id="person" class="com.spring.beans.Person">
+<property name="name" value="Tom"></property>
+<property name="age" value="24"></property>
+   <!-- <property name="car" ref="car"></property>
+-->
+    <!--内部bean不能被外部引用，只能自己使用-->
+    <property name="car">
+        <bean class="com.spring.beans.Car" p:price="20">
+            <constructor-arg name="brand" value="vovo"></constructor-arg>
+            <constructor-arg name="corp" value="zhongguo"></constructor-arg>
+            <constructor-arg name="maxSpeed"><value>250</value></constructor-arg>
+            <constructor-arg name="price" value="30000"></constructor-arg>
+        </bean>
+
+
+    </property>
+</bean>
+
+</beans>
