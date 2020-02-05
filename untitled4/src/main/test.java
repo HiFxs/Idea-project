@@ -1,4 +1,4 @@
-package MAIN;
+package main;
 
 import bean.Employee;
 import employeeinterface.EmployeeMapper;
@@ -7,7 +7,6 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
-import org.springframework.test.context.TestConstructor;
 
 import java.io.IOException;
 import java.io.InputStream;

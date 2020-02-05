@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3965e4d8-a3fc-4663-86b3-bf2e042aabb7" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3965e4d8-a3fc-4663-86b3-bf2e042aabb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspectjweaver_1_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spring/aop/ArithmeticCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spring/aop/VlidationAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/conf/MybatisGenerator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/bean/Employee.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/main/java/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/main/resources/mapperxml/CustomerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring_learning/META-INF/spring_learning.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring_learning/beans-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_learning/beans-annotation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring_learning/com/spring/beans/Helloworld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_learning/com/spring/beans/Helloworld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beans-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/beans-annotation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spring/beans/Helloworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spring/beans/Helloworld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled4/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled4/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled4/out/production/untitled4/MAIN/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled4/out/production/untitled4/MAIN/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled4/out/production/untitled4/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled4/out/production/untitled4/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled4/src/MAIN/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled4/src/main/test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,42 +32,53 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1W0oy6pJUX6Mxsz3jcIgFiPZ0sv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/spring/aspectjweaver-1.8.7.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2050633" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.spring.factory" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\spring_learning\lib" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.VlidationAspect.validateArgs">
     <configuration name="spring4" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.spring.annotation.Main" />
       <module name="spring_learning" />
@@ -54,6 +86,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VlidationAspect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.aop.VlidationAspect" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VlidationAspect.validateArgs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.aop.VlidationAspect" />
+      <option name="METHOD_NAME" value="validateArgs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VlidationAspect.validateArgs" />
+        <item itemvalue="JUnit.VlidationAspect" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,10 +137,45 @@
       <workItem from="1578296127790" duration="10482000" />
       <workItem from="1578879071377" duration="3332000" />
       <workItem from="1578888475995" duration="96000" />
+      <workItem from="1580813023833" duration="1674000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="381" y="136" key="FileChooserDialogImpl" timestamp="1580814684010">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="381" y="136" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580814684010" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1580814707515">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580814707515" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1580814707514">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580814707514" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1580814707514">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580814707514" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1580814707514">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580814707514" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1580813866880">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580813866880" />
+    <state x="381" y="285" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580814168996">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="381" y="285" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1580814168996" />
+    <state x="57" y="0" key="new project wizard" timestamp="1580814703815">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1580814703815" />
   </component>
 </project>

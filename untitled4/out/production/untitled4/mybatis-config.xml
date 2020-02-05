@@ -14,7 +14,7 @@
             </dataSource>
         </environment>
     </environments>
-    <mappers>
-        <mapper resource="EmployeeMapper.xml"/>
-    </mappers>
+<mappers>
+<mapper resource="EmployeeMapper.xml"/>
+</mappers>
 </configuration>
